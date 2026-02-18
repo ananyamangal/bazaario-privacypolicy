@@ -190,3 +190,25 @@ footer {
   background: rgba(255, 255, 255, 0.9);
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(31, 59, 123, 0.25);
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn:hover {
+  background: #172d5c;
+  transform: translateY(-1px);
+}
+

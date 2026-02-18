@@ -23,6 +23,9 @@ export default function Page() {
           <p className="muted">
             <strong>Last updated:</strong> February 2026
           </p>
+          <Link href="/terms" className="btn">
+            Terms and Conditions
+          </Link>
         </div>
       </header>
 

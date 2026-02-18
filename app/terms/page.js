@@ -22,6 +22,9 @@ export default function TermsPage() {
           <p className="muted">
             <strong>Last Updated:</strong> February 2026
           </p>
+          <Link href="/" className="btn">
+            Privacy Policy
+          </Link>
         </div>
       </header>
 
