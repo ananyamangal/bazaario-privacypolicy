@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Page() {
   const year = new Date().getFullYear();
 
@@ -253,7 +255,11 @@ export default function Page() {
       </main>
 
       <footer>
-        &copy; {year} Bazaario. All rights reserved.
+        <nav className="footer-nav">
+          <Link href="/terms">Terms and Conditions</Link>
+          <span className="footer-sep">·</span>
+          <span>&copy; {year} Bazaario. All rights reserved.</span>
+        </nav>
       </footer>
     </div>
   );
